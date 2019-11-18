@@ -1,0 +1,3 @@
+#! zsh
+: ${SPACEMACSDIR:=$XDG_CONFIG_HOME/spacemacs}
+export SPACEMACSDIR

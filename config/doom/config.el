@@ -36,6 +36,11 @@
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type t)
 
+;; Doom comes with evil-escape support for leaving Insert mode with a simple key
+;; sequence, but it defaults that sequence to jk. I prefer jj, so let's change
+;; it here.
+(setq evil-escape-key-sequence "jj")
+
 
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;

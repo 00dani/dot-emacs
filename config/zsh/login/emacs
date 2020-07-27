@@ -1,2 +1,2 @@
 #! zsh
-path+=(~/.emacs.d/bin)
+path+=(~/.config/emacs/bin)

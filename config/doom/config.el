@@ -58,3 +58,10 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+;; We need to turn on the pretty-code Doom module to get ligatures working.
+;; Unfortunately, that also turns on pretty-code-mode, which I don't want - it's
+;; a feature that replaces keywords with symbols à la Vim-conceal, which I find
+;; needlessly confusing. Luckily we can shut off just pretty-code-mode by
+;; setting this variable.
+(setq +pretty-code-enabled-modes nil)
